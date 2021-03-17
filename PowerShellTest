@@ -1,0 +1,3 @@
+Test-Path -Path "C:\Users\katly\Desktop\OutputFile.txt"
+
+True
