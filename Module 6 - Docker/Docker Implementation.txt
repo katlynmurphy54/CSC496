@@ -1,0 +1,6 @@
+Docker implementation:
+
+$ docker run -it --rm -d -p 8080:80 --name web nginx
+$ docker run -it --rm -d -p 8080:80 --name web -v ~/site-content:/usr/share/nginx/html nginx
+$ docker build -t webserver .
+$ docker run -it --rm -d -p 8080:80 --name web webserver

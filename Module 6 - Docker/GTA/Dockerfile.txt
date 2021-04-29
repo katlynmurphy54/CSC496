@@ -1,0 +1,2 @@
+FROM nginx:latest
+COPY ./gtagnu.png /usr/share/nginx/html

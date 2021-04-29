@@ -1,0 +1,5 @@
+Test-Path -Path "C:\Users\katly\Desktop\OutputFile.txt"
+
+True
+# This checks if the file exists which means that when we ran the benchmark, we got the expected output. Thus, it is checking the cinebench score script from last week. 
+# This is where my file directly went. 

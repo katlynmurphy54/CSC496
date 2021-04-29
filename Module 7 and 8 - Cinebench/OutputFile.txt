@@ -1,0 +1,4 @@
+Cinebench R23 Multi core Score: 2392
+Cinebench R23 Single core Score: 929
+Number of Cores in This Machine: 4 It is normal if your single core score (actual) is much higher than what
+Cinebench R23 Estimated Single Core: 2392/4=598

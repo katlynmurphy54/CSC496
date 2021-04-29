@@ -1,0 +1,101 @@
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "Horizon Zero Dawn Sapphire 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'HorizonZeroDawnSapphire6700XTData.png'
+plot 'HorizonZeroDawnSapphire6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "Borderlands 3 Sapphire 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'Borderlands3Sapphire6700XTData.png'
+plot 'Borderlands3Sapphire6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "FarCry 5 Sapphire 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'FarCry5Sapphire6700XTData.png'
+plot 'FarCry5Sapphire6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "SOTTR Sapphire 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'SOTTRSapphire6700XTData.png'
+plot 'SOTTRSapphire6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines
+
+
+
+
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "SOTTR Reference 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'SOTTRReference6700XTData.png'
+plot 'SOTTRReference6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines, '' using 0:4 with lines, '' using 0:5 with lines
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "FarCry 5 Reference 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'FarCry5Reference6700XTData.png'
+plot 'FarCry5Reference6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines, '' using 0:4 with lines, '' using 0:5 with lines
+
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "Borderlands 3 Reference 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'Borderlands3Reference6700XTData.png'
+plot 'Borderlands3Reference6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines, '' using 0:4 with lines, '' using 0:5 with lines
+
+cd 'C:\Users\katly\Desktop\benchmarrrrrks'
+set title "Horizon Zero Dawn Reference 6700XT Data"
+set key title "Resloutions"
+set ylabel "Framerate" 
+set key autotitle columnhead
+set key outside
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'HorizonZeroDawnReference6700XTData.png'
+plot 'HorizonZeroDawnReference6700XT.csv' using 0:1 with lines, '' using 0:2 with lines, '' using 0:3 with lines, '' using 0:4 with lines, '' using 0:5 with lines
+
+
+
+
+
+
+
+
+

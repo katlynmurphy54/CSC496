@@ -1,0 +1,29 @@
+FROM nginx:latest
+COPY ./Borderlands3Reference6700XTData.png /usr/share/nginx/html
+
+FROM nginx:latest
+COPY ./Borderlands3Sapphire6700XTData.png /usr/share/nginx/html
+
+
+FROM nginx:latest
+COPY ./FarCry5Reference6700XTData.png /usr/share/nginx/html
+
+
+FROM nginx:latest
+COPY ./FarCry5Sapphire6700XTData.png /usr/share/nginx/html
+
+
+FROM nginx:latest
+COPY ./HorizonZeroDawnReference6700XTData.png /usr/share/nginx/html
+
+
+FROM nginx:latest
+COPY ./HorizonZeroDawnSapphire6700XTData.png /usr/share/nginx/html
+
+
+FROM nginx:latest
+COPY ./SOTTRReference6700XTData.png /usr/share/nginx/html
+
+
+FROM nginx:latest
+COPY ./SOTTRSapphire6700XTData.png /usr/share/nginx/html
