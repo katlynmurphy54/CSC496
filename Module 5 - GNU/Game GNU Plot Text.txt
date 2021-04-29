@@ -1,0 +1,21 @@
+cd 'C:\Users\katly\Desktop'
+set title 'C:\Users\katly\Desktop\GTAData.csv' 
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'GTAgnu.png'
+plot 'GTA2Data.csv' with lines
+
+cd 'C:\Users\katly\Desktop'
+set title 'C:\Users\katly\Desktop\RaidShadowLegendsData.csv'
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'raidshadowgnu.png'
+plot 'RaidShadowLegendsData.csv' with lines
+
+
+cd 'C:\Users\katly\Desktop'
+set title 'C:\Users\katly\Desktop\TotalDominationData.csv'
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10''
+set output 'totaldomgnu.png'
+plot 'TotalDominationData.csv' with lines
