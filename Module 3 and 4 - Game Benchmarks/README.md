@@ -1,5 +1,4 @@
-CSC 496 - Module 3 and 4
-
+#CSC 496 - Module 3 and 4
 Purpose: Pick two 3d accelerated games gather some performance data from those games using tools like MSI Afterburner, HWInfo64 and any built-in benchmarks the game has. Create a folder for each game in your git repo and add the text files there of the game performance. Try to capture at least: CPU temperature, GPU temperature, cpu clock speed, GPU clock speed (memory clock and core clock if you have both options), frame time and frame rate.
 
 I decided to collect data from the games GTA2, total domination, and raid shadow league game with the tool HWInfo64.
