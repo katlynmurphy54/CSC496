@@ -1,4 +1,4 @@
-#CSC 496 - MODULE 10. 
+CSC 496 - MODULE 10. 
 
 Purpose: Create a github pages site that contains an html version of the output of the assignment from #9. This will probably need to be in another repo because of how github pages work. 
 
